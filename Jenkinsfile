@@ -20,7 +20,7 @@ pipeline {
       steps {
          sh 'ls -lrt'
          sh 'pwd'
-         sh 'tar -zcf build.tar.zip build/'
+         sh 'tar -zcf build.tar.exe build/'
       }
     }    
   }
